@@ -82,6 +82,7 @@ app.delete('/products/:id', async (req, res) => {
 mongoose.set("strictQuery", false)
 mongoose.
     connect(process.env.MONGODB_URI)
+
     .then(() => {
         // then here is a promise
         console.log('connected to MongoDB')

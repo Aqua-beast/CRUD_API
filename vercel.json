@@ -1,0 +1,9 @@
+{
+    "build": {
+      "env": {
+        "MONGODB_URI": "mongodb+srv://admin:9ravLckETXOEOkrL@cluster0.fzv6xup.mongodb.net/Node-API?retryWrites=true&w=majority",
+        "PORT": 3000
+      }
+    }
+  }
+  
